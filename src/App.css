@@ -1,0 +1,37 @@
+body{
+    background-color: #282c34;
+}
+
+.App {
+  text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 173px;
+}
+
+.timer-container{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 9px;
+}
+
+.time-dots{
+
+    font-size:  27px;
+    color: black
+}
+
+.buttons-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+
+.wait {
+    color: red;
+}
+

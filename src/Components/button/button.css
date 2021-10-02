@@ -1,0 +1,25 @@
+.btn {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 0.6em;
+    color: red;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    margin: 20px 0 20px 0;
+    padding: 0.8em 0.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.btn:hover {
+    box-shadow: 0 0 40px 40px red inset;
+    color: white;
+}
+

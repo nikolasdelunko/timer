@@ -1,0 +1,11 @@
+.Display-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time{
+    padding: 15px 15px 15px 15px;
+    background-color: red;
+    border-radius: 9px;
+}
